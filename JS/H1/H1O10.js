@@ -10,8 +10,11 @@ function setup() {
 
 function draw() {
   
+  fill('wheat');
+  rect(0,0,450,30)
+
   fill('black');
   text("mouseX:" + round(mouseX) + " mouseY:"+round(mouseY),10,20);
   fill('indianred');
-  ellipse(mouseX,height/2,10);
+  ellipse(mouseX,mouseY,10);
 }

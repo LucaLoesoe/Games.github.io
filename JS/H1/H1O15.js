@@ -1,5 +1,5 @@
 var xJOS = 225;
-var yJOS = 75;
+var yJOS = 375;
 
 function setup() {
   canvas = createCanvas(450,450);
